@@ -2,7 +2,7 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "A demo of webpack with babel",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "build": "node_modules/.bin/webpack --config webpack.config.js --mode=production",
     "watch": "node_modules/.bin/webpack --config webpack.config.js --mode=development -w",
@@ -22,5 +22,6 @@
     "webpack": "^5.64.3",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0"
-  }
+  },
+  "type": "module"
 }
